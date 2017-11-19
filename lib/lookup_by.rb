@@ -54,14 +54,15 @@ module LookupBy
   end
 end
 
-begin
-  require "simple_form"
-  require "lookup_by/hooks/simple_form"
-rescue LoadError
-end
-
-begin
-  require "formtastic"
-  require "lookup_by/hooks/formtastic"
-rescue LoadError
-end
+# comment this out for now
+# begin
+#   require "simple_form"
+#   require "lookup_by/hooks/simple_form"
+# rescue LoadError
+# end
+#
+# begin
+#   require "formtastic"
+#   require "lookup_by/hooks/formtastic"
+# rescue LoadError
+# end
